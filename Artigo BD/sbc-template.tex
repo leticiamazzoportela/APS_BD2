@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx,url}
+%\usepackage[brazil]{babel}   
+\usepackage[latin1]{inputenc}
+     
+\sloppy
+
+\title{Uma análise comparativa da técnica de \textit{Tuning} nos SGBDs MySQL e PostgreSQL}
+
+\author{Cláudia L. Poiet Sampedro\inst{1}, Jonas Felipe Alves\inst{2}, Letícia Mazzo Portela\inst{3}}
+
+\address{\inst{,}\inst{2}\inst{,}\inst{3}Universidade Tecnológica Federal do Paraná - UTFPR \\ Departamento Acadêmico de Computação - DACOM \\ Coordenação de Ciência da Computação - COCIC
+}
+
+\begin{document} 
+
+\maketitle
+
+%\begin{abstract}
+  
+%\end{abstract}
+     
+%\begin{resumo} 
+  
+%\end{resumo}
+
+
+\section{Apresentação das Tecnologias}
+    \subsection{MySQL}
+        MySQL é um Sistema Gerenciador de Banco de Dados (SGBD), de código aberto, baseado em SQL (structured query language). Criado em 1995 e desenvolvido nas linguagens C e C++, este está disponível em 2 versões: MySQL Community Server e Enterprise Server, cujas diferenças são o custo e os plugins disponíveis. (Rouse, 2013)
+        
+        Este SGBD roda virtualmente em todas as plataformas, incluindo Linux, Unix e Windows. Entretanto o MySQL é comumente associado a aplicações web, utilizando alguma plataforma de desenvolvimento web, integrada com certo servidor. (MySQL, 2017)
+    \subsection{PostgreSQL}
+        O PostgreSQL é um SGBD lançado em 1989 e gerenciado pela PostgreSQL Global Development Group. O mesmo é relacional, gratuito e de código aberto, além de possuir alta performance, recursos avançados, fácil administração e ser amplamente utilizado no ambiente web. (Souza, et.al, ?).
+        
+    	A seguir, estão expostas algumas das principais características do referido SGBD, segundo VALE (2013):
+             Objeto Relacional (cada tabela define uma classe);
+            \begin{itemize}
+                \item Operadores e funções polimórficas;
+                \item Compilação padronizada;
+                \item Diversidade de linguagens procedurais, bem como PLPG/SQL, PL/Java, PL/PHP, PL/Python, dentre outras;
+                \item Tipos de dados únicos;
+                \item Extensibilidade.
+            \end{itemize} 
+    \subsection{LAMP}
+        Como servidor web será utilizada a plataforma LAMP (acrônimo para Linux Apache MySQL PHP), que consiste na junção de tecnologias de SGBDS (MySQL, PostgreSQL), integradas com web server Apache, e com as linguagens de programação (PHP, Perl ou Python). Por ser software livre e de código aberto, esta tecnologia foi selecionada para compor o presente trabalho. (Sudré, 2006)
+        
+    	Este servidor conta com  versões para outros sistemas operacionais, o mais famoso é WAMP (acrônimo para Windows Apache MySLQ PHP), que conta com as mesmas tecnologias, mas direcionadas aos sistemas operacionais da Microsoft. 
+
+\nocite{ex1}
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
