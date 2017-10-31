@@ -33,7 +33,9 @@
     \subsection{MySQL}
         MySQL é um Sistema Gerenciador de Banco de Dados (SGBD), de código aberto, baseado em SQL (structured query language). Criado em 1995 e desenvolvido nas linguagens C e C++, este está disponível em 2 versões: MySQL Community Server e Enterprise Server, cujas diferenças são o custo e os plugins disponíveis. (Rouse, 2013)
         
-        Este SGBD roda virtualmente em todas as plataformas, incluindo Linux, Unix e Windows. Entretanto o MySQL é comumente associado a aplicações web, utilizando alguma plataforma de desenvolvimento web, integrada com certo servidor. (MySQL, 2017)
+        Este SGBD roda virtualmente em todas as plataformas, incluindo Linux, Unix e Windows. Entretanto o MySQL é comumente associado a aplicações web, utilizando alguma plataforma de desenvolvimento web, integrada com certo servidor.(MySQL, 2017)
+        
+        Sua evolução é clara quando comparadas as versões mais antigas com a atual. Funções como \textit{rollback}, níveis de isolamento de transações e \textit{commit} foram implementadas com o tempo.
     \subsection{PostgreSQL}
         O PostgreSQL é um SGBD lançado em 1989 e gerenciado pela PostgreSQL Global Development Group. O mesmo é relacional, gratuito e de código aberto, além de possuir alta performance, recursos avançados, fácil administração e ser amplamente utilizado no ambiente web. (Souza, et.al, ?).
         
@@ -43,13 +45,12 @@
                 \item Operadores e funções polimórficas;
                 \item Compilação padronizada;
                 \item Diversidade de linguagens procedurais, bem como PLPG/SQL, PL/Java, PL/PHP, PL/Python, dentre outras;
-                \item Tipos de dados únicos;
-                \item Extensibilidade.
+                \item Tipos de dados únicos.
             \end{itemize} 
-    \subsection{LAMP}
-        Como servidor web será utilizada a plataforma LAMP (acrônimo para Linux Apache MySQL PHP), que consiste na junção de tecnologias de SGBDS (MySQL, PostgreSQL), integradas com web server Apache, e com as linguagens de programação (PHP, Perl ou Python). Por ser software livre e de código aberto, esta tecnologia foi selecionada para compor o presente trabalho. (Sudré, 2006)
-        
-    	Este servidor conta com  versões para outros sistemas operacionais, o mais famoso é WAMP (acrônimo para Windows Apache MySLQ PHP), que conta com as mesmas tecnologias, mas direcionadas aos sistemas operacionais da Microsoft. 
+    \subsection{Características}
+         O MySQL possui foco na administração, e no baixo consumo de recursos do hardware, se tornando relativamente rápido. O mesmo, embora seja software livre, não possui uma licença totalmente livre, fazendo com que certas funcionalidades estejam disponíveis apenas na versão paga.
+         
+         O PostgreSQL possui foco nas funcionalidades, não possuindo grande preocupação com velocidade, mas em contrapartida este é munido de recursos mais complexos. Como sua licença é menos rigorosa, usuários podem fazer modificações caso julguem necessárias.  
 
 \nocite{ex1}
 \bibliographystyle{sbc}
